@@ -189,3 +189,7 @@ describe("routing", () => {
     expect(res.status).toBe(404);
   });
 });
+
+afterAll(async () => {
+  await new Promise(resolve => setTimeout(resolve, 5000));
+});
