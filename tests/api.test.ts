@@ -8,8 +8,8 @@ import {
   recordingReader,
   throwingReader,
 } from "./helpers/fixtures";
-import "chai-check-error";  
-import { getMessage } from "chai-check-error";  
+import "react-check-error";
+import { getMessage } from "react-check-error";  
 
 // Any valid checksummed address works as an account owner in these tests.
 const OWNER = ADDR.DAI;
